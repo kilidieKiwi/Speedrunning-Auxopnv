@@ -2227,6 +2227,38 @@
         "1"
       ],
       "source": "AVV Linienverzeichnis 2026 und swa Linienfahrplan Linie 1"
+    },
+    {
+      "id": "augsburg-259",
+      "name": "Drentwettstraße",
+      "lines": [
+        "4"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 4 · Stand November 2026"
+    },
+    {
+      "id": "augsburg-260",
+      "name": "Zollernstraße",
+      "lines": [
+        "4"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 4 · Stand November 2026"
+    },
+    {
+      "id": "augsburg-261",
+      "name": "Eschenhof",
+      "lines": [
+        "4"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 4 · Stand November 2026"
+    },
+    {
+      "id": "augsburg-262",
+      "name": "Alpenhof",
+      "lines": [
+        "4"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 4 · Stand November 2026"
     }
   ]
 }
