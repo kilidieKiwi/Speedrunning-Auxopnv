@@ -1813,7 +1813,8 @@
       "name": "Rudolf-Diesel-Gymnasium",
       "lines": [
         "30",
-        "31"
+        "31",
+        "6"
       ],
       "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
     },
@@ -2259,6 +2260,46 @@
         "4"
       ],
       "source": "swa Tram-Linienfahrplan Linie 4 · Stand November 2026"
+    },
+    {
+      "id": "augsburg-263",
+      "name": "Friedberg West P+R",
+      "lines": [
+        "6"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 6, gültig ab 14.12.2025"
+    },
+    {
+      "id": "augsburg-264",
+      "name": "Friedbg. Maria Alber",
+      "lines": [
+        "6"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 6, gültig ab 14.12.2025"
+    },
+    {
+      "id": "augsburg-265",
+      "name": "Stadtbergen",
+      "lines": [
+        "6"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 6, gültig ab 14.12.2025"
+    },
+    {
+      "id": "augsburg-266",
+      "name": "Stadtberger Hof",
+      "lines": [
+        "6"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 6, gültig ab 14.12.2025"
+    },
+    {
+      "id": "augsburg-267",
+      "name": "Stbg. Elias-Holl-Straße",
+      "lines": [
+        "6"
+      ],
+      "source": "swa Tram-Linienfahrplan Linie 6, gültig ab 14.12.2025"
     }
   ]
 }
