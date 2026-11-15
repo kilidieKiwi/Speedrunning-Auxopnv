@@ -683,14 +683,14 @@
     },
     {
       "id": "augsburg-078",
-      "name": "Göggingen Bergstraße",
+      "name": "Bergstraße",
       "lines": [
         "1",
         "35",
         "41",
         "42"
       ],
-      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+      "source": "swa-Linienfahrpläne, gültig ab 15.09.2026"
     },
     {
       "id": "augsburg-079",
