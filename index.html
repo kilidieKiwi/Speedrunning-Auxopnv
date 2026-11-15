@@ -48,15 +48,15 @@ footer{margin-top:25px;color:var(--muted);font-size:12px}a{color:var(--accent2)}
     </div>
     <div class="panel">
       <h2>HALTESTELLEN-DATEN</h2>
-      <p class="muted">Die Liste wird aus dem offenen GeoJSON-Datensatz der Stadt Augsburg geladen. Falls das Laden im Browser blockiert wird, kannst du die GeoJSON- oder eine GTFS-stops.txt-Datei manuell importieren.</p>
+      <p class="muted">Die Pflicht-Haltestellen der Straßenbahnlinien 1, 2, 3, 4, 6 und der Stadtbuslinien 21–48 sind bereits eingebaut. AVV-Regionalbusse bleiben als Fortbewegungsmittel erlaubt, zählen aber nicht zur Pflichtliste.</p>
       <div class="actions">
-        <button class="primary" id="loadBtn">Offizielle Liste laden</button>
+        <button class="primary" id="loadBtn">Haltestellenliste neu laden</button>
         <label class="filelabel" for="fileInput">Datei importieren</label>
         <input id="fileInput" type="file" accept=".json,.geojson,.txt,.csv" hidden>
         <button id="exportBtn">Run als CSV exportieren</button>
       </div>
-      <div class="notice" id="dataStatus">Noch keine Haltestellen geladen. Lade die offizielle Liste oder importiere eine Datei.</div>
-      <div class="small">Quelle: <a href="https://www.augsburg.de/fileadmin/user_upload/buergerservice_rathaus/Smart_City/opendata/Haltestellen.geojson" target="_blank" rel="noopener">Stadt Augsburg – Haltestellen GeoJSON</a>. Die Daten können neben Pflicht-Haltestellen auch weitere ÖPNV-Haltepunkte enthalten.</div>
+      <div class="notice" id="dataStatus">Die eingebettete Haltestellenliste wird geladen …</div>
+      <div class="small">Datengrundlage: <a href="https://www.sw-augsburg.de/privatkunden/mobilitaet/swa-bus-tram/fahr-und-netzplaene/linienfahrplaene" target="_blank" rel="noopener">swa-Linienfahrpläne</a> und <a href="https://www.fahrplan.guru/haltestelle/deutschland/bayern/augsburg" target="_blank" rel="noopener">Haltestellenverzeichnis Augsburg (Fahrplanstand 15.11.2026)</a>. Die Liste enthält eindeutige Haltestellen der ausgewählten Pflichtlinien; gemeinsam genutzte Haltestellen zählen nur einmal.</div>
     </div>
   </section>
 
@@ -111,7 +111,25 @@ function finish(){if(!state.active||state.finished)return;state.finished=true;st
 function reset(){if(!confirm('Diesen Run und alle Checkmarks wirklich zurücksetzen?'))return;clearInterval(tick);state={...state,active:false,finished:false,armedAt:null,firstStopAt:null,startedAt:null,finishedAt:null,marks:{}};save();render()}
 function toggle(id,checked){if(!state.active||state.finished)return;if(checked){const t=now();if(!state.firstStopAt){state.firstStopAt=t;state.startedAt=t}state.marks[id]={wall:t,elapsed:t-state.firstStopAt}}else{delete state.marks[id];if(!Object.keys(state.marks).length){state.firstStopAt=null;state.startedAt=null}else{const first=Math.min(...Object.values(state.marks).map(m=>m.wall));state.firstStopAt=first;Object.values(state.marks).forEach(m=>m.elapsed=m.wall-first)}}save();render()}
 function exportCsv(){const rows=[['Haltestelle','Linien','Abgehakt','Zeit seit erster Haltestelle','Uhrzeit','Breitengrad','Längengrad']];state.stops.forEach(s=>{const m=state.marks[s.id];rows.push([s.name,s.lines,m?'ja':'nein',m?elapsed(m.elapsed):'',m?formatClock(m.wall):'',s.lat||'',s.lon||''])});const csv=rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(';')).join('\r\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));a.download='augsburg-speedrun-'+new Date().toISOString().slice(0,10)+'.csv';a.click();URL.revokeObjectURL(a.href)}
-async function loadOfficial(){ $('dataStatus').textContent='Lade GeoJSON der Stadt Augsburg …';try{const r=await fetch(DATA_URL);if(!r.ok)throw new Error('HTTP '+r.status);const json=await r.json();const stops=normalizeGeo(json);if(!stops.length)throw new Error('Keine Haltestellen im GeoJSON erkannt');state.stops=stops;save();$('dataStatus').textContent=stops.length+' Haltestellen aus dem städtischen GeoJSON geladen. Bitte prüfe, ob der Datensatz alle Pflicht-Haltestellen deiner Linien enthält.';render()}catch(e){$('dataStatus').textContent='Automatisches Laden nicht möglich ('+e.message+'). Bitte GeoJSON oder GTFS-stops.txt herunterladen und über „Datei importieren“ laden.'}}
+async function loadOfficial(){
+ $('dataStatus').textContent='Lade die eingebettete Augsburger Pflicht-Haltestellenliste …';
+ try{
+  const r=await fetch('./stops.json?v=20261115',{cache:'no-store'});
+  if(!r.ok)throw new Error('HTTP '+r.status);
+  const data=await r.json();
+  const stops=(data.stops||[]).map(s=>({id:String(s.id),name:String(s.name),lines:Array.isArray(s.lines)?s.lines.join(', '):String(s.lines||''),source:'Pflichtnetz'}));
+  if(!stops.length)throw new Error('Keine Haltestellen in stops.json gefunden');
+  const validIds=new Set(stops.map(s=>s.id));
+  state.stops=stops;
+  state.marks=Object.fromEntries(Object.entries(state.marks||{}).filter(([id])=>validIds.has(id)));
+  state.dataVersion=data.updated||'';
+  save();
+  $('dataStatus').textContent=stops.length+' eindeutige Haltestellen geladen · Linien '+(data.requiredLines||[]).join(', ')+' · Datenstand '+(data.updated||'unbekannt')+'.';
+  render();
+ }catch(e){
+  $('dataStatus').textContent='Die eingebettete Liste konnte nicht geladen werden ('+e.message+'). Bitte Seite neu laden oder stops.json im Repository prüfen.';
+ }
+}
 $('startBtn').addEventListener('click',start);$('finishBtn').addEventListener('click',finish);$('resetBtn').addEventListener('click',reset);$('loadBtn').addEventListener('click',loadOfficial);$('exportBtn').addEventListener('click',exportCsv);
 $('search').addEventListener('input',render);$('filter').addEventListener('change',render);$('sort').addEventListener('change',render);
 $('stopList').addEventListener('change',e=>{if(e.target.matches('input[type=checkbox][data-id]'))toggle(e.target.dataset.id,e.target.checked)});
@@ -119,6 +137,7 @@ $('fileInput').addEventListener('change',async e=>{const f=e.target.files[0];if(
 try{const old=localStorage.getItem(KEY);if(old)state={...state,...JSON.parse(old)}}catch(e){}
 if(state.active&&!state.finished&&state.firstStopAt)tick=setInterval(updateTimer,250);
 render();
+if(!state.stops.length || state.dataVersion!=='2026-11-15') loadOfficial();
 })();
 </script>
 </body>
