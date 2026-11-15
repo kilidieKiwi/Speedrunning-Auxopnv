@@ -142,20 +142,24 @@
     },
     {
       "id": "augsburg-extra-hbf",
-      "name": "Augsburg Hbf",
+      "name": "Augsburg Hauptbahnhof (Hbf)",
       "lines": [
         "3",
         "4",
         "6",
-        "22"
+        "22",
+        "32",
+        "43"
       ],
-      "source": "Ergänzung nach AVV-Haltestellenübersicht; bitte Linienzuordnung prüfen"
+      "source": "swa-/AVV-Linienfahrpläne"
     },
     {
       "id": "augsburg-extra-west",
       "name": "Augsburg West P+R",
-      "lines": [],
-      "source": "AVV-Regionalbus-/Umstiegshaltestelle; optionale Fortbewegung"
+      "lines": [
+        "2"
+      ],
+      "source": "swa-Linienfahrplan Linie 2"
     },
     {
       "id": "augsburg-014",
