@@ -1493,9 +1493,10 @@
       "id": "augsburg-172",
       "name": "Lukassiedlung",
       "lines": [
-        "23"
+        "23",
+        "22"
       ],
-      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+      "source": "swa Fahrplan Linie 22, Richtung Firnhaberau/HBF · Abgleich 15.11.2026"
     },
     {
       "id": "augsburg-174",
@@ -1890,9 +1891,10 @@
       "id": "augsburg-218",
       "name": "Siedlerweg",
       "lines": [
-        "23"
+        "23",
+        "22"
       ],
-      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+      "source": "swa Fahrplan Linie 22, Richtung Firnhaberau/HBF · Abgleich 15.11.2026"
     },
     {
       "id": "augsburg-219",
