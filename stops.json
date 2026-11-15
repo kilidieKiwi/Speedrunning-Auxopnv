@@ -2179,6 +2179,46 @@
         "37"
       ],
       "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-253",
+      "name": "Königsbrunn Augsburger Straße",
+      "lines": [
+        "3"
+      ],
+      "source": "swa/AVV Linienweg Tram 3 · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-254",
+      "name": "Königsbrunn Bereitschaftspolizei",
+      "lines": [
+        "3"
+      ],
+      "source": "swa/AVV Linienweg Tram 3 · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-255",
+      "name": "Königsbrunn Guldenstraße",
+      "lines": [
+        "3"
+      ],
+      "source": "swa/AVV Linienweg Tram 3 · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-256",
+      "name": "Königsbrunn Mindelheimer Straße",
+      "lines": [
+        "3"
+      ],
+      "source": "swa/AVV Linienweg Tram 3 · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-257",
+      "name": "Königsbrunn Zentrum",
+      "lines": [
+        "3"
+      ],
+      "source": "swa/AVV Linienweg Tram 3 · Stand 15.11.2026"
     }
   ]
 }
