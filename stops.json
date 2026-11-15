@@ -2219,6 +2219,14 @@
         "3"
       ],
       "source": "swa/AVV Linienweg Tram 3 · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-258",
+      "name": "Göggingen",
+      "lines": [
+        "1"
+      ],
+      "source": "AVV Linienverzeichnis 2026 und swa Linienfahrplan Linie 1"
     }
   ]
 }
