@@ -1,0 +1,2163 @@
+{
+  "source": "Fahrplanübersicht Augsburg, Fahrplan ab 15.11.2026; Abgleich der Linien mit swa/AVV Linienübersichten",
+  "updated": "2026-11-15",
+  "requiredLines": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "35",
+    "36",
+    "37",
+    "38",
+    "41",
+    "42",
+    "43",
+    "44",
+    "48"
+  ],
+  "stops": [
+    {
+      "id": "augsburg-001",
+      "name": "Afrabrücke",
+      "lines": [
+        "6",
+        "93",
+        "94"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-002",
+      "name": "Aindlinger Straße",
+      "lines": [
+        "48",
+        "225"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-003",
+      "name": "Albrecht-Dürer-Straße",
+      "lines": [
+        "22",
+        "44",
+        "93"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-004",
+      "name": "Alpenstraße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-005",
+      "name": "Alter Ostfriedhof",
+      "lines": [
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-006",
+      "name": "Am Alten Hessenbach",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-007",
+      "name": "Am Eiskanal",
+      "lines": [
+        "6",
+        "93",
+        "94"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-008",
+      "name": "Am Eulenhorst",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-009",
+      "name": "Am Grünland",
+      "lines": [
+        "22",
+        "93"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-010",
+      "name": "Am Mittleren Moos",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-011",
+      "name": "Am Roggenfeld",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-012",
+      "name": "Am Wachtelschlag",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-013",
+      "name": "Auerstraße",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-014",
+      "name": "Bärenbergl",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-015",
+      "name": "Bärenkeller Nord",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-016",
+      "name": "Bärenkeller Schule",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-017",
+      "name": "Bärenkeller Süd",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-018",
+      "name": "Bärenwirt/DRvS",
+      "lines": [
+        "4",
+        "21",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-019",
+      "name": "Barfüßerbrücke/Brecht-Haus",
+      "lines": [
+        "1",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-020",
+      "name": "BBW/Institut für Physik",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-021",
+      "name": "Beim Dürren Ast",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-022",
+      "name": "Benedikt-Kern-Weg",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-023",
+      "name": "Bergheim Baggersee",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-024",
+      "name": "Bergheim Jakob-Krause-Straße",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-025",
+      "name": "Bergheim Kirche",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-026",
+      "name": "Bergheim Neubergheim Ost",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-027",
+      "name": "Bergheim Neubergheim West",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-028",
+      "name": "Bergheim Nord",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-029",
+      "name": "Bergheim Süd",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-030",
+      "name": "Bergheim",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-031",
+      "name": "Berliner Allee",
+      "lines": [
+        "1",
+        "22",
+        "23",
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-032",
+      "name": "Berufsschule",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-033",
+      "name": "Bgm.-Ackermann-Straße",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-034",
+      "name": "Bgm.-Bohl-Straße",
+      "lines": [
+        "6"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-035",
+      "name": "Bismarckbrücke",
+      "lines": [
+        "35",
+        "41",
+        "43"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-036",
+      "name": "Brixener Straße",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-037",
+      "name": "Brunnenstraße",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-038",
+      "name": "Bukowina-Institut/PCI",
+      "lines": [
+        "3",
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-039",
+      "name": "Burgfrieden",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-040",
+      "name": "Chemnitzer Straße",
+      "lines": [
+        "35",
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-041",
+      "name": "Christian-Dierig-Haus",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-042",
+      "name": "City-Galerie/VHS",
+      "lines": [
+        "22",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-043",
+      "name": "Curt-Frenzel-Stadion",
+      "lines": [
+        "4"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-044",
+      "name": "Curtiusstraße",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-045",
+      "name": "Dayton Ring",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-046",
+      "name": "Derchinger Straße",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-047",
+      "name": "Diakonissenhaus",
+      "lines": [
+        "43"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-048",
+      "name": "Dieselbrücke",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-049",
+      "name": "Dom/Stadtwerke",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-050",
+      "name": "Donaustraße",
+      "lines": [
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-051",
+      "name": "Dr.-Schmelzing-Straße",
+      "lines": [
+        "23",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-052",
+      "name": "Eberlestraße",
+      "lines": [
+        "6",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-053",
+      "name": "Eibseestraße",
+      "lines": [
+        "29",
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-054",
+      "name": "Eichleitnerstraße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-055",
+      "name": "Endorferstraße",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-056",
+      "name": "Eppaner Straße",
+      "lines": [
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-057",
+      "name": "Fachoberschule",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-058",
+      "name": "Falkenweg",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-059",
+      "name": "Fichtelbachstraße",
+      "lines": [
+        "33"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-060",
+      "name": "Firnhaberau",
+      "lines": [
+        "22",
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-061",
+      "name": "Fischertor",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-062",
+      "name": "Flandernstraße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-063",
+      "name": "Foggenseestraße",
+      "lines": [
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-064",
+      "name": "Fraunhoferstraße",
+      "lines": [
+        "22"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-065",
+      "name": "Friedr.-Deffner-Straße",
+      "lines": [
+        "29",
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-066",
+      "name": "Fritz-Koelle-Straße",
+      "lines": [
+        "36"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-067",
+      "name": "Frohsinnstraße",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-068",
+      "name": "Fuggerei",
+      "lines": [
+        "1",
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-069",
+      "name": "Gaswerk",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-070",
+      "name": "General-Cramer-Weg",
+      "lines": [
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-071",
+      "name": "Gieseckestraße",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-072",
+      "name": "Glaspalast",
+      "lines": [
+        "33"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-073",
+      "name": "Goethestraße",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-074",
+      "name": "Goldregenweg",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-075",
+      "name": "Gärtnerstraße",
+      "lines": [
+        "6"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-076",
+      "name": "Göggingen Am Bühl",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-077",
+      "name": "Göggingen Bergiusstraße",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-078",
+      "name": "Göggingen Bergstraße",
+      "lines": [
+        "1",
+        "35",
+        "41",
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-079",
+      "name": "Göggingen Brandweg",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-080",
+      "name": "Göggingen G.-Stresemann-Straße",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-081",
+      "name": "Göggingen Gabelsberger Straße",
+      "lines": [
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-082",
+      "name": "Göggingen Hessing-Kliniken",
+      "lines": [
+        "1",
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-083",
+      "name": "Göggingen Klausenberg",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-084",
+      "name": "Göggingen Lindauer Straße",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-085",
+      "name": "Göggingen Maria Stern",
+      "lines": [
+        "1",
+        "41",
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-086",
+      "name": "Göggingen Olof-Palme-Straße",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-087",
+      "name": "Göggingen Radaustraße",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-088",
+      "name": "Göggingen Rathaus",
+      "lines": [
+        "1",
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-089",
+      "name": "Göggingen Schwabenweg",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-090",
+      "name": "Göggingen Widdersteinweg",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-091",
+      "name": "Haindl",
+      "lines": [
+        "35",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-092",
+      "name": "Halle 116/Pröllstraße",
+      "lines": [
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-093",
+      "name": "Hammerschmiede P+R",
+      "lines": [
+        "23",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-094",
+      "name": "Hammerschmiede Süd",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-095",
+      "name": "Hammerschmiede",
+      "lines": [
+        "23",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-096",
+      "name": "Hammerschmiedweg",
+      "lines": [
+        "22",
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-097",
+      "name": "Hans-Adlhoch-Straße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-098",
+      "name": "Haunstetten Adelheidstraße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-099",
+      "name": "Haunstetten Auf dem Nol",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-100",
+      "name": "Haunstetten Baugenossenschaft",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-101",
+      "name": "Haunstetten Bischofsackerweg",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-102",
+      "name": "Haunstetten Brahmsstraße",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-103",
+      "name": "Haunstetten Dr.-Troeltsch-Straße",
+      "lines": [
+        "24"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-104",
+      "name": "Haunstetten Flachsstraße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-105",
+      "name": "Haunstetten Georg-Käß-Platz",
+      "lines": [
+        "24"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-106",
+      "name": "Haunstetten Hofackerstraße",
+      "lines": [
+        "3",
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-107",
+      "name": "Haunstetten Inninger Straße P+R",
+      "lines": [
+        "3",
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-108",
+      "name": "Haunstetten Jägerhaus",
+      "lines": [
+        "24"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-109",
+      "name": "Haunstetten Klinikum Süd",
+      "lines": [
+        "24"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-110",
+      "name": "Haunstetten Kopernikusstraße",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-111",
+      "name": "Haunstetten Lavendelstraße",
+      "lines": [
+        "24"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-112",
+      "name": "Haunstetten Leharstraße",
+      "lines": [
+        "24",
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-113",
+      "name": "Haunstetten Marienburger Straße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-114",
+      "name": "Haunstetten Nord",
+      "lines": [
+        "2",
+        "24",
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-115",
+      "name": "Haunstetten Offenbach Karree",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-116",
+      "name": "Haunstetten Olympiastraße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-117",
+      "name": "Haunstetten Rentmeisterstraße",
+      "lines": [
+        "24"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-118",
+      "name": "Haunstetten Roggenstraße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-119",
+      "name": "Haunstetten Sportplatzstraße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-120",
+      "name": "Haunstetten Süd",
+      "lines": [
+        "24",
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-121",
+      "name": "Haunstetten Südwest",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-122",
+      "name": "Haunstetten Taubenstraße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-123",
+      "name": "Haunstetten Via-Claudia-Straße",
+      "lines": [
+        "25"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-124",
+      "name": "Haunstetter Straße Bahnhof",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-125",
+      "name": "Heimgarten",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-126",
+      "name": "Hennchstraße",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-127",
+      "name": "Herrenbach Schule",
+      "lines": [
+        "33",
+        "36"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-128",
+      "name": "Herz-Jesu-Kirche",
+      "lines": [
+        "6",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-129",
+      "name": "Herzogstandstraße",
+      "lines": [
+        "29",
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-130",
+      "name": "Hessenbachstraße",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-131",
+      "name": "Hochfeld",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-132",
+      "name": "Hochfeldstraße",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-133",
+      "name": "Hochschule",
+      "lines": [
+        "6",
+        "32",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-134",
+      "name": "Hochzoll Bahnhof",
+      "lines": [
+        "29"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-135",
+      "name": "Hochzoll Kuhsee",
+      "lines": [
+        "29",
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-136",
+      "name": "Hochzoll Mitte",
+      "lines": [
+        "6",
+        "29"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-137",
+      "name": "Hochzoll Süd",
+      "lines": [
+        "29",
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-138",
+      "name": "Höfatsstraße",
+      "lines": [
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-139",
+      "name": "Inningen Ferrozell",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-140",
+      "name": "Inningen Kohlstattsiedlung",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-141",
+      "name": "Inningen Ost",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-142",
+      "name": "Inningen Tiberiusstraße",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-143",
+      "name": "Inningen Waage",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-144",
+      "name": "Inningen Wasserturmstraße",
+      "lines": [
+        "38"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-145",
+      "name": "Innovationspark/LfU",
+      "lines": [
+        "3",
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-146",
+      "name": "Innsbrucker Straße",
+      "lines": [
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-147",
+      "name": "Jakobertor",
+      "lines": [
+        "1",
+        "22",
+        "23",
+        "33"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-148",
+      "name": "Josefinum",
+      "lines": [
+        "21",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-149",
+      "name": "KUKA/Partnachweg",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-150",
+      "name": "Kammgarn",
+      "lines": [
+        "36"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-151",
+      "name": "Karlstraße",
+      "lines": [
+        "23",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-152",
+      "name": "Kirschenweg",
+      "lines": [
+        "22"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-153",
+      "name": "Klinik Vincentinum",
+      "lines": [
+        "35",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-154",
+      "name": "Klinkertor",
+      "lines": [
+        "4"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-155",
+      "name": "Kolbergstraße",
+      "lines": [
+        "22"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-156",
+      "name": "Kollmannstraße",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-157",
+      "name": "Kongress am Park",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-158",
+      "name": "Kriegshaber",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-159",
+      "name": "Kriegshaberstraße",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-160",
+      "name": "Kulturhaus abraxas",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-161",
+      "name": "Kulturstraße",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-162",
+      "name": "Kurt-Schumacher-Straße",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-163",
+      "name": "Königsplatz",
+      "lines": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "22",
+        "23",
+        "32",
+        "41",
+        "43",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-164",
+      "name": "Landvogtstraße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-165",
+      "name": "Lange Gewanne",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-166",
+      "name": "Lechhausen Industriegebiet",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-167",
+      "name": "Lechhausen Neuer Ostfriedhof",
+      "lines": [
+        "1",
+        "29",
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-168",
+      "name": "Lechhausen Schlößle",
+      "lines": [
+        "1",
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-169",
+      "name": "Localbahn",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-170",
+      "name": "Ludwigshafener Straße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-171",
+      "name": "Luitpoldbrücke",
+      "lines": [
+        "6",
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-172",
+      "name": "Lukassiedlung",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-173",
+      "name": "MAN",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-174",
+      "name": "Magdeburger Straße",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-175",
+      "name": "Margaret",
+      "lines": [
+        "22",
+        "32",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-176",
+      "name": "Markgrafenstraße",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-177",
+      "name": "Medienzentrum",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-178",
+      "name": "Memminger Straße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-179",
+      "name": "Messe DB",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-180",
+      "name": "Messe Nord",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-181",
+      "name": "Messe Süd",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-182",
+      "name": "Messezentrum",
+      "lines": [
+        "41"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-183",
+      "name": "Mittelberger Straße",
+      "lines": [
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-184",
+      "name": "Moritzplatz",
+      "lines": [
+        "1",
+        "2",
+        "22",
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-185",
+      "name": "Mozarthaus/Kolping",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-186",
+      "name": "Murnauer Weg",
+      "lines": [
+        "29"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-187",
+      "name": "Neuschwansteinstraße",
+      "lines": [
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-188",
+      "name": "Neusässer Straße",
+      "lines": [
+        "2",
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-189",
+      "name": "Nordfriedhof",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-190",
+      "name": "Oberhausen Bahnhof/Helmut-Haller-Platz",
+      "lines": [
+        "2",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-191",
+      "name": "Oberhausen Nord P+R",
+      "lines": [
+        "4"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-192",
+      "name": "Oberländer Straße",
+      "lines": [
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-193",
+      "name": "Osram",
+      "lines": [
+        "33"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-194",
+      "name": "Pfersee Süd",
+      "lines": [
+        "35",
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-195",
+      "name": "Pfersee",
+      "lines": [
+        "6",
+        "35",
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-196",
+      "name": "Pilgerhausstraße",
+      "lines": [
+        "1",
+        "23",
+        "35",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-197",
+      "name": "Plärrer P+R",
+      "lines": [
+        "4"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-198",
+      "name": "Polizeipräsidium",
+      "lines": [
+        "1"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-199",
+      "name": "Preßburger Straße",
+      "lines": [
+        "35",
+        "42"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-200",
+      "name": "Prinz-Karl-Viertel",
+      "lines": [
+        "35",
+        "41",
+        "43"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-201",
+      "name": "Prinzregentenstraße",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-202",
+      "name": "Proviantbachquartier",
+      "lines": [
+        "33"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-203",
+      "name": "Radetzkystraße",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-204",
+      "name": "Rathausplatz",
+      "lines": [
+        "1",
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-205",
+      "name": "Reichenberger Straße",
+      "lines": [
+        "33",
+        "36"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-206",
+      "name": "Reinöhlstraße",
+      "lines": [
+        "32",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-207",
+      "name": "Rosenaustraße",
+      "lines": [
+        "6",
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-208",
+      "name": "Rotes Tor",
+      "lines": [
+        "2",
+        "3",
+        "6",
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-209",
+      "name": "Rudolf-Diesel-Gymnasium",
+      "lines": [
+        "30",
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-210",
+      "name": "Schackstraße",
+      "lines": [
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-211",
+      "name": "Schertlinstraße",
+      "lines": [
+        "2",
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-212",
+      "name": "Schillcafe",
+      "lines": [
+        "22"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-213",
+      "name": "Schleiermacherstraße",
+      "lines": [
+        "1",
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-214",
+      "name": "Schwaben Center",
+      "lines": [
+        "6",
+        "33",
+        "36"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-215",
+      "name": "Schärtlstraße",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-216",
+      "name": "Seniorenzentrum Servatius",
+      "lines": [
+        "43"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-217",
+      "name": "Senkelbach",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-218",
+      "name": "Siedlerweg",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-219",
+      "name": "Spickel",
+      "lines": [
+        "33",
+        "36"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-220",
+      "name": "Sportanlage Süd P+R",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-221",
+      "name": "St. Thaddäus",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-222",
+      "name": "St.-Anton-Siedlung",
+      "lines": [
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-223",
+      "name": "St.-Lukas-Straße",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-224",
+      "name": "Staatstheater",
+      "lines": [
+        "4",
+        "23",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-225",
+      "name": "Steinerne Furt",
+      "lines": [
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-226",
+      "name": "Stenglinstraße",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-227",
+      "name": "Stephingerberg",
+      "lines": [
+        "35",
+        "44"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-228",
+      "name": "Sterzinger Straße",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-229",
+      "name": "Stätzlinger Straße",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-230",
+      "name": "Tannheimer Straße",
+      "lines": [
+        "31"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-231",
+      "name": "Textilmuseum",
+      "lines": [
+        "6",
+        "36"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-232",
+      "name": "Th.-Heuss-Platz/IHK",
+      "lines": [
+        "2",
+        "3",
+        "6",
+        "41",
+        "43"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-233",
+      "name": "Th.-Wiedemann-Straße",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-234",
+      "name": "Toblacher Straße",
+      "lines": [
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-235",
+      "name": "Trettachstraße",
+      "lines": [
+        "29",
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-236",
+      "name": "Täfertinger Weg",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-237",
+      "name": "Uhlandstraße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-238",
+      "name": "Ulrichsbrücke",
+      "lines": [
+        "1",
+        "22",
+        "23"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-239",
+      "name": "Ulrichsplatz",
+      "lines": [
+        "22",
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-240",
+      "name": "Umweltzentrum",
+      "lines": [
+        "48"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-241",
+      "name": "Uniklinik BKH",
+      "lines": [
+        "2",
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-242",
+      "name": "Universität",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-243",
+      "name": "Volkssiedlung",
+      "lines": [
+        "2"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-244",
+      "name": "Von-Parseval-Straße",
+      "lines": [
+        "3"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-245",
+      "name": "Weißenseestraße",
+      "lines": [
+        "30"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-246",
+      "name": "Wertachbrücke",
+      "lines": [
+        "2",
+        "4"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-247",
+      "name": "Wertinger Straße",
+      "lines": [
+        "21"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-248",
+      "name": "Westfriedhof",
+      "lines": [
+        "6"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-249",
+      "name": "Wilhelm-Hauff-Straße",
+      "lines": [
+        "6"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-250",
+      "name": "Windprechtstraße",
+      "lines": [
+        "35"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-251",
+      "name": "Zoo/Bot. Garten",
+      "lines": [
+        "32"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    },
+    {
+      "id": "augsburg-252",
+      "name": "Zusamstraße",
+      "lines": [
+        "37"
+      ],
+      "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
+    }
+  ]
+}
