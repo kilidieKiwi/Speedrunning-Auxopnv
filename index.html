@@ -63,6 +63,7 @@ footer{margin-top:25px;color:var(--muted);font-size:12px}a{color:var(--accent2)}
   <div class="toolbar">
     <input id="search" type="search" placeholder="Haltestelle suchen …" aria-label="Haltestelle suchen">
     <select id="filter"><option value="all">Alle Haltestellen</option><option value="open">Noch offen</option><option value="done">Abgehakt</option></select>
+    <select id="lineFilter" aria-label="Nach Linie filtern"><option value="all">Alle Linien</option></select>
     <select id="sort"><option value="name">Alphabetisch</option><option value="line">Nach Linienangabe</option><option value="status">Offene zuerst</option></select>
   </div>
   <div class="stoplist" id="stopList"><div class="empty">Noch keine Haltestellen vorhanden.</div></div>
@@ -93,9 +94,18 @@ function parseCsv(text){
  if(idx('stop_name')>=0){return lines.slice(1).map((line,i)=>{const cells=line.match(/("([^"]|"")*"|[^,]*)(,|$)/g)||[];const vals=cells.map(x=>x.replace(/,$/,'').replace(/^"|"$/g,'').replace(/""/g,'"'));return {id:vals[idx('stop_id')]||String(i),name:vals[idx('stop_name')]||'',lines:'',lat:vals[idx('stop_lat')],lon:vals[idx('stop_lon')],source:'GTFS'};}).filter(x=>x.name)}
  return lines.slice(1).map((line,i)=>{const vals=line.split(',');return {id:String(i),name:vals[0]||'',lines:vals[1]||'',source:'CSV'};}).filter(x=>x.name)
 }
+function lineTokens(value){return (Array.isArray(value)?value.join(','):String(value||'')).split(/[,;\\s]+/).map(x=>x.trim()).filter(Boolean)}
+function updateLineFilter(){
+ const select=$('lineFilter'),current=select.value;
+ const lines=[...new Set(state.stops.flatMap(s=>lineTokens(s.lines)))].sort((a,b)=>a.localeCompare(b,'de',{numeric:true}));
+ select.innerHTML='<option value="all">Alle Linien</option>'+lines.map(l=>'<option value="'+esc(l)+'">Linie '+esc(l)+'</option>').join('');
+ if(lines.includes(current))select.value=current;
+}
 function render(){
- const q=$('search').value.toLocaleLowerCase('de-DE'),filter=$('filter').value,sort=$('sort').value;
+ updateLineFilter();
+ const q=$('search').value.toLocaleLowerCase('de-DE'),filter=$('filter').value,sort=$('sort').value,line=$('lineFilter').value;
  let list=state.stops.filter(s=>(s.name+' '+s.lines).toLocaleLowerCase('de-DE').includes(q));
+ if(line!=='all')list=list.filter(s=>lineTokens(s.lines).includes(line));
  list=list.filter(s=>filter==='all'||(filter==='done'?!!state.marks[s.id]:!state.marks[s.id]));
  list.sort((a,b)=>sort==='line'?a.lines.localeCompare(b.lines,'de'):sort==='status'?(!!state.marks[a.id]-!!state.marks[b.id])||a.name.localeCompare(b.name,'de'):a.name.localeCompare(b.name,'de'));
  $('stopList').innerHTML=list.length?list.map(s=>{const mark=state.marks[s.id],id='s'+btoa(unescape(encodeURIComponent(s.id))).replace(/[^a-zA-Z0-9]/g,'').slice(0,30);return '<div class="stop '+(mark?'done':'')+'"><input type="checkbox" id="'+id+'" data-id="'+esc(s.id)+'" '+(mark?'checked':'')+' '+(!state.active||state.finished?'disabled':'')+'><label for="'+id+'"><span class="stopname">'+esc(s.name)+'</span><span class="meta">'+(s.lines?'<span>Linien: '+esc(s.lines)+'</span>':'<span>Linienzuordnung nicht im Datensatz</span>')+(s.source?'<span>'+esc(s.source)+'</span>':'')+'</span>'+(mark?'<div class="stamp">'+elapsed(mark.elapsed)+' seit Start · '+formatClock(mark.wall)+'</div>':'')+'</label></div>'}).join(''):'<div class="empty">Keine passenden Haltestellen gefunden.</div>';
@@ -114,7 +124,7 @@ function exportCsv(){const rows=[['Haltestelle','Linien','Abgehakt','Zeit seit e
 async function loadOfficial(){
  $('dataStatus').textContent='Lade Pflichtliste und gleiche sie mit dem offenen GeoJSON der Stadt Augsburg ab …';
  try{
-  const r=await fetch('./stops.json?v=20261115',{cache:'no-store'});
+  const r=await fetch('./stops.json?v=20261115-2',{cache:'no-store'});
   if(!r.ok)throw new Error('HTTP '+r.status);
   const data=await r.json();
   const required=new Set((data.requiredLines||[]).map(String));
@@ -163,8 +173,9 @@ async function loadOfficial(){
   const stops=[...byName.values()].sort((a,b)=>a.name.localeCompare(b.name,'de'));
   if(!stops.length)throw new Error('Keine Haltestellen in stops.json gefunden');
   const validIds=new Set(stops.map(s=>s.id));
+  const previousMarks=state.marks||{};
   state.stops=stops;
-  state.marks=Object.fromEntries(Object.entries(state.marks||{}).filter(([id])=>validIds.has(id)));
+  state.marks=Object.fromEntries(Object.entries(previousMarks).filter(([id])=>validIds.has(id)));
   state.dataVersion=data.updated||'';
   save();
   $('dataStatus').textContent=stops.length+' eindeutige Pflicht-Haltestellen · '+geoMessage+' · Linien '+(data.requiredLines||[]).join(', ')+' · Datenstand '+(data.updated||'unbekannt')+'. Bitte mögliche Datenlücken anhand der swa-Linienfahrpläne prüfen.';
@@ -174,13 +185,13 @@ async function loadOfficial(){
  }
 }
 $('startBtn').addEventListener('click',start);$('finishBtn').addEventListener('click',finish);$('resetBtn').addEventListener('click',reset);$('loadBtn').addEventListener('click',loadOfficial);$('exportBtn').addEventListener('click',exportCsv);
-$('search').addEventListener('input',render);$('filter').addEventListener('change',render);$('sort').addEventListener('change',render);
+$('search').addEventListener('input',render);$('filter').addEventListener('change',render);$('lineFilter').addEventListener('change',render);$('sort').addEventListener('change',render);
 $('stopList').addEventListener('change',e=>{if(e.target.matches('input[type=checkbox][data-id]'))toggle(e.target.dataset.id,e.target.checked)});
 $('fileInput').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const text=await f.text();let stops;if(f.name.toLowerCase().endsWith('.geojson')||f.name.toLowerCase().endsWith('.json'))stops=normalizeGeo(JSON.parse(text));else stops=parseCsv(text);if(!stops.length)throw new Error('Keine Haltestellen erkannt');state.stops=stops;state.marks={};save();$('dataStatus').textContent=stops.length+' Haltestellen aus '+f.name+' importiert.';render()}catch(err){$('dataStatus').textContent='Import fehlgeschlagen: '+err.message}e.target.value=''});
 try{const old=localStorage.getItem(KEY);if(old)state={...state,...JSON.parse(old)}}catch(e){}
 if(state.active&&!state.finished&&state.firstStopAt)tick=setInterval(updateTimer,250);
 render();
-if(!state.stops.length || state.dataVersion!=='2026-11-15') loadOfficial();
+loadOfficial();
 })();
 </script>
 </body>
