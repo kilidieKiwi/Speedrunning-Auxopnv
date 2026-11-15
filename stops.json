@@ -1213,9 +1213,7 @@
     {
       "id": "augsburg-140",
       "name": "Inningen Kohlstattsiedlung",
-      "lines": [
-        "38"
-      ],
+      "lines": [],
       "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
     },
     {
@@ -1229,9 +1227,7 @@
     {
       "id": "augsburg-142",
       "name": "Inningen Tiberiusstraße",
-      "lines": [
-        "38"
-      ],
+      "lines": [],
       "source": "Fahrplanübersicht Augsburg · Stand 15.11.2026"
     },
     {
@@ -2341,6 +2337,22 @@
         "32"
       ],
       "source": "swa Linienfahrplan Linie 32, gültig ab 20.04.2026"
+    },
+    {
+      "id": "augsburg-273",
+      "name": "Mühlstraße",
+      "lines": [
+        "38"
+      ],
+      "source": "swa Linienfahrplan Linie 38; aktueller Umleitungsstand ab 12.09.2026"
+    },
+    {
+      "id": "augsburg-274",
+      "name": "Inningen Nord",
+      "lines": [
+        "38"
+      ],
+      "source": "swa Verkehrsinformation Linie 38, Umleitung ab 12.09.2026"
     }
   ]
 }
